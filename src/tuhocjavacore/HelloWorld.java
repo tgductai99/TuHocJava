@@ -9,6 +9,9 @@ public class HelloWorld {
 		int c = Math.max(a, b);
 		System.out.println("max = " + c);
 
+		short d = 1000;
+		long e = 5000L;
+
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("First number: ");
 		int n1 = scanner.nextInt();
