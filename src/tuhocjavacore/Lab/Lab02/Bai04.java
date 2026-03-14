@@ -40,6 +40,7 @@ public class Bai04 {
 			break;
 		default:
 			System.out.println("Lựa chọn không hợp lệ");
+			System.exit(0);
 		}
 		scanner.close();
 	}
